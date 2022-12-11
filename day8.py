@@ -1,4 +1,3 @@
-import numpy
 import numpy as np
 
 from file_input import file_input
