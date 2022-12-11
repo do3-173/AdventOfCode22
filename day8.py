@@ -42,7 +42,7 @@ def first_part():
             if first_part_check(matrix, i, j, max_top):
                 flag_matrix[i][j] = 1
                 max_top = matrix[i][j]
-    return numpy.count_nonzero(flag_matrix)
+    return np.count_nonzero(flag_matrix)
 
 
 def second_part():
